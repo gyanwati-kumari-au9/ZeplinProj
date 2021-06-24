@@ -15,7 +15,7 @@ class Home extends Component{
         return(
             <div class="row">
                 <div className="container" style={{display:"flex"}}>
-                <Jumbotron style={{backgroundImage:"images/banner.jpg"}}>
+                <Jumbotron style={{ marginTop:"100px",backgroundImage:"./images/banner.jpg"}}>
                     <h1>Hello, world!</h1>
                     <p>
                         This is a simple hero unit, a simple jumbotron-style component for calling
